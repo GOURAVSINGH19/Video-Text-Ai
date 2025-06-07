@@ -3,6 +3,7 @@ Convert video content into structured blog posts using AI.
 This Python application extracts audio from video files, transcribes it to text, and uses OpenAI's GPT model to generate a well-formatted blog post in Markdown.
 
 🚀 Features
+```
 🎧 Extracts audio from video files
 
 🗣️ Transcribes speech to text using Google Speech Recognition
@@ -14,8 +15,9 @@ This Python application extracts audio from video files, transcribes it to text,
 🔄 Tracks progress and handles errors gracefully
 
 🧰 Prerequisites
+```
 Make sure you have the following before getting started:
-
+```
 Python 3.7 or higher
 
 OpenAI API key
@@ -27,25 +29,21 @@ Clone the repository or download the source files.
 
 Install required Python packages:
 
-bash
-Copy
-Edit
 pip install -r requirements.txt
+```
 Set up your API key:
-
 Create a .env file in the project root directory and add:
-
+```
 ini
-Copy
-Edit
 OPENAI_API_KEY=your_api_key_here
+
+```
 ▶️ Usage
 Run the script:
-
-bash
-Copy
+```
 Edit
 python video_to_blog.py
+```
 Follow the prompts:
 
 Enter the path to your video file (e.g., my_video.mp4)
@@ -64,7 +62,7 @@ Save the post to the specified file
 
 🎥 Supported Video Formats
 This tool supports common video file formats:
-
+```
 .mp4
 
 .avi
@@ -76,7 +74,7 @@ This tool supports common video file formats:
 .flv
 
 .mkv
-
+```
 ⚠️ Notes
 Transcription quality depends on the clarity of the video's audio.
 
